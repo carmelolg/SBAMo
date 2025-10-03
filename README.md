@@ -1,8 +1,8 @@
-# SBAM - Spring Boot Architecture for Microservices
+# SBAM - Spring Boot Architecture for monolith
 
 [![logo](docs/logo.png)](docs/logo-png)
 
-A starter template for Spring Boot applications, designed to quickly kickstart the development of microservices with a ready-to-use configuration.
+A starter template for Spring Boot applications, designed to quickly kickstart the development of monolith with a ready-to-use configuration.
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Coverage](.github/badges/jacoco.svg)](.github/badges/jacoco.svg)
@@ -33,8 +33,8 @@ Make sure you have the following tools installed:
 Clone the Git repository to your local machine:
 
 ```bash
-git clone https://github.com/carmelolg/spring-boot-microservice-template.git
-cd spring-boot-microservice-template
+git clone https://github.com/carmelolg/SBAMo.git
+cd SBAMo
 ```
 
 ## Building the Project
@@ -49,9 +49,9 @@ If you want to skip tests during the build, run:
 mvn clean install -U -DskipTests
 ```
 
-## Running the Microservice
+## Running the Monolith
 
-You can start the microservice using Maven:
+You can start the monolith using Maven:
 
 ```bash
 mvn spring-boot:run
@@ -74,7 +74,7 @@ For production (prod):
 
 ## API Documentation
 
-The APIs are documented with Swagger. Once the microservice is running, you can access the API documentation at the following URL:
+The APIs are documented with Swagger. Once the monolith is running, you can access the API documentation at the following URL:
 
 http://localhost:8080/swagger-ui/index.html
 

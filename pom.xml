@@ -14,7 +14,7 @@
     <groupId>it.carmelolagamba</groupId>
     <artifactId>sbam</artifactId>
     <version>2.1.0</version>
-    <name>Spring Boot Architecture for Microservice</name>
+    <name>Spring Boot Architecture for Monolith</name>
 
     <properties>
         <version>2.1.0</version>
