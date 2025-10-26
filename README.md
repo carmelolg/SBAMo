@@ -1,4 +1,4 @@
-# SBAM - Spring Boot Architecture for monolith
+# SBAM - Spring Boot Architecture for Monolith
 
 [![logo](docs/logo.png)](docs/logo-png)
 
