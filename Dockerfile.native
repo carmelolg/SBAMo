@@ -8,5 +8,5 @@ RUN mvn -Pnative native:compile
 
 # Stage 2: Run the application
 FROM ubuntu:jammy
-COPY --from=build /app/target/sbam sbam
-CMD ["/sbam"]
+COPY --from=build /app/target/sbamo sbamo
+CMD ["/sbamo"]
