@@ -15,13 +15,15 @@ Here are the key updates and changes in this release:
 - Update Dockerfiles for better performance and smaller image sizes
 - Upgrade Maven to version 3.9.12
 - Upgrade Jacoco to version 0.8.14
-- Added maven compiler plugin configuration to enforce Java 25 compatibility
+- Updated to Java 17 LTS for better long-term support and compatibility
+- Updated GitHub Actions workflow to use latest action versions
 
 
 ## Key Technologies
 
 - **Spring Boot**: v4.0.1
 - **OpenAPI**: v3.1.0 (for API documentation)
+- **Java**: 17 LTS
 - **Maven**: for dependency management and build
 - **Docker**: for containerization
 
@@ -33,13 +35,13 @@ Here are the key updates and changes in this release:
 
 Make sure you have the following tools installed:
 
-- **JDK**: Version 21 or higher
+- **JDK**: Version 17 or higher (LTS recommended)
 - **Maven**: Version 3.9.7 or higher
 - **Docker** (optional): for running in containers
 - **Git**: for cloning the repository
 
 #### Disclaimer
-This project is compiled and tested with JDK 25 and maven 3.9.12.<br>
+This project is compiled and tested with JDK 17 LTS and maven 3.9.12.<br>
 **Feel free to contact me if the version declared above causes any issue.**
 
 ### Clone the Repository

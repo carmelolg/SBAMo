@@ -18,8 +18,8 @@
 
     <properties>
         <version>2.2.0</version>
-        <java.version>25</java.version>
-        <springdoc-openapi.version>2.8.14</springdoc-openapi.version>
+        <java.version>17</java.version>
+        <springdoc-openapi.version>3.0.1</springdoc-openapi.version>
         <jacoco-maven-plugin.version>0.8.14</jacoco-maven-plugin.version>
     </properties>
 
@@ -86,8 +86,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <source>25</source>
-                    <target>25</target>
+                    <source>17</source>
+                    <target>17</target>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>

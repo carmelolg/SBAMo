@@ -7,6 +7,6 @@ COPY src ./src
 RUN mvn -Pnative native:compile
 
 # Stage 2: Run the application
-FROM ubuntu:jammy
+FROM ubuntu:noble
 COPY --from=build /app/target/sbamo sbamo
 CMD ["/sbamo"]
