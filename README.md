@@ -16,6 +16,7 @@ Here are the key updates and changes in this release:
 - Upgrade Maven to version 3.9.12
 - Upgrade Jacoco to version 0.8.14
 - Added maven compiler plugin configuration to enforce Java 25 compatibility
+- Updated GitHub Actions workflow to use latest action versions
 
 
 ## Key Technologies
